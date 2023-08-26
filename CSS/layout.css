@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;1,300&family=Nunito:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,300;1,500&family=Roboto+Mono:ital,wght@0,100;0,200;0,400;0,500;0,700;1,200&family=Roboto:ital,wght@0,300;0,500;0,700;1,100;1,300;1,400;1,500&family=Special+Elite&display=swap');
+
+*{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    border: 1px solid red;
+}
+.container form{
+    border: 1px solid black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: #f5f5f5;
+}
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    max-width: 450px;
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+.login-form .form-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0px 30px;
+    color: #111;
+}
+.login-form .form-input{
+    margin: 10px 0px;
+}
+.login-form .form-input label,
+.login-form .captcha label{
+    display: block;
+    font-size: 1rem;
+    color: #111;
+    margin-bottom: 5px;
+}
+.login-form .form-input input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #888;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.login-form .captcha{
+    margin: 15px 0px;
+}
+.login-form .captcha .preview{
+    color: white;
+    user-select: none;
+    pointer-events: none;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 8px;
+    font-family: 'Special Elite', cursive;
+    font-style: italic;
+    text-decoration: line-through;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #0c1333;
+}
+.login-form .captcha .preview span{
+    display: inline-block;
+    user-select: none;
+}
+.login-form .captcha .captcha-form{
+    display: flex;
+}
+.login-form .captcha .captcha-form input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #888;
+}
+.login-form .captcha .captcha-form .captcha-refresh{
+    width: 40px;
+    /* background: #888; */
+    color: #eee;
+    cursor: pointer;
+}
